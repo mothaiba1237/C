@@ -9,7 +9,8 @@ int main(){
 	luongcoban = gio * luong ;
 
 	if (gio > 160) {
-		phucap = luong * 0.1 ;
+		phucap = luongcoban * 0.1 ;
+	
 	}
 	 else{
 		phucap = 0; 
